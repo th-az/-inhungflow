@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ với LumiFlower – Kết nối & Chia sẻ câu chuyện</title>
+  <meta name="description" content="Kết nối với LumiFlower nếu bạn muốn chia sẻ câu chuyện, trao đổi kiến thức thực vật hoặc đóng góp ý kiến cho dự án học tập phi thương mại.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating Botanical Petals -->
+  <svg class="floating-petal floating-petal-1" viewBox="0 0 50 50" fill="none">
+    <path d="M10 25 C10 10, 25 10, 35 15 C45 20, 40 38, 28 40 C16 42, 10 35, 10 25 Z" fill="#DCEFFA" stroke="#B9DDF3" stroke-width="1.2" />
+  </svg>
+  <svg class="floating-petal floating-petal-2" viewBox="0 0 60 60" fill="none">
+    <path d="M15 30 C15 15, 30 12, 45 20 C55 30, 48 50, 32 52 C18 54, 15 42, 15 30 Z" fill="#EEF7FC" stroke="#A8C8C5" stroke-width="1.2" />
+  </svg>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="LumiFlower Trang Chủ">
+        <div class="brand-logo-icon">
+          <svg viewBox="0 0 48 48" width="42" height="42" fill="none">
+            <circle cx="24" cy="24" r="22" fill="#F8FCFF" stroke="#B9DDF3" stroke-width="1.5" />
+            <path d="M16 12 C16 12, 17 26, 17 31 C17 34, 19 35, 24 35 C28 35, 31 34.5, 33 34" stroke="#245B82" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M16 16 C14 10, 20 8, 22 13 C23 15, 20 18, 16 19" stroke="#6BAED6" stroke-width="1.8" stroke-linecap="round" fill="#EEF7FC" fill-opacity="0.6"/>
+            <path d="M20 12 C24 9, 28 13, 25 17 C23 19, 19 18, 17 18" stroke="#6BAED6" stroke-width="1.6" stroke-linecap="round" fill="#DCEFFA" fill-opacity="0.4"/>
+            <path d="M15 15 C11 14, 11 18, 14 20 C16 21, 17 19, 17 17" stroke="#A8C8C5" stroke-width="1.4" stroke-linecap="round"/>
+            <circle cx="28.5" cy="32.5" r="0.8" fill="#6BAED6"/>
+          </svg>
+        </div>
+        <div class="brand-logo-text">
+          <span class="brand-title">LUMIFLOWER</span>
+          <span class="brand-tagline">Chạm vào Cảm Xúc, Chia Sẻ Câu Chuyện</span>
+        </div>
+      </a>
+
+      <nav aria-label="Menu chính">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li><a href="cau-chuyen.html" class="nav-link">Câu chuyện</a></li>
+          <li><a href="cac-loai-hoa.html" class="nav-link">Các loài hoa</a></li>
+          <li><a href="trung-bay.html" class="nav-link">Trưng bày</a></li>
+          <li><a href="ve-toi.html" class="nav-link">Về tôi</a></li>
+          <li><a href="lien-he.html" class="nav-link active">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn trigger-search" aria-label="Tìm kiếm">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </button>
+        <button class="icon-btn btn-hamburger" aria-label="Mở menu">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <aside class="mobile-nav-drawer" aria-label="Menu di động">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo"><span class="brand-title">LUMIFLOWER</span></div>
+      <button class="icon-btn mobile-drawer-close" aria-label="Đóng menu">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link">Trang chủ</a></li>
+      <li><a href="cau-chuyen.html" class="mobile-nav-link">Câu chuyện</a></li>
+      <li><a href="cac-loai-hoa.html" class="mobile-nav-link">Các loài hoa</a></li>
+      <li><a href="trung-bay.html" class="mobile-nav-link">Trưng bày</a></li>
+      <li><a href="ve-toi.html" class="mobile-nav-link">Về tôi</a></li>
+      <li><a href="lien-he.html" class="mobile-nav-link active">Liên hệ</a></li>
+    </ul>
+  </aside>
+
+  <div class="backdrop-overlay"></div>
+
+  <!-- SEARCH MODAL -->
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="Tìm kiếm">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px;">
+      <h4 style="color: var(--deep-blue); font-size: 1.25rem;">Tìm kiếm trong LumiFlower</h4>
+      <button class="icon-btn search-modal-close" aria-label="Đóng">✕</button>
+    </div>
+    <div class="search-input-wrap">
+      <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--primary-blue);">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+      </svg>
+      <input type="text" id="searchInput" placeholder="Tìm kiếm loài hoa, ý nghĩa hoặc câu chuyện..." autocomplete="off">
+    </div>
+    <div class="search-results-list" id="searchResults"></div>
+  </div>
+
+  <main class="section">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <div class="section-badge">Giao lưu & Kết nối</div>
+        <h1 class="section-title">Liên hệ với LumiFlower</h1>
+        <p class="section-subtitle">
+          Nếu bạn muốn chia sẻ một câu chuyện, góp ý xây dựng hoặc đơn giản là muốn trò chuyện về vẻ đẹp của những đóa hoa, hãy kết nối với chúng tôi.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Cột trái: Form liên hệ phi thương mại -->
+        <div class="contact-form-card">
+          <h3 style="color: var(--deep-blue); margin-bottom: 8px;">Gửi tin nhắn hoặc câu chuyện</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 26px;">
+            Mọi ý kiến đóng góp cho dự án học tập LumiFlower đều được chúng tôi đón nhận bằng sự trân trọng chân thành nhất.
+          </p>
+
+          <form id="contactForm">
+            <!-- Họ và tên -->
+            <div class="form-group">
+              <label for="contactName" class="form-label">Họ và tên *</label>
+              <input type="text" id="contactName" class="form-input" placeholder="Ví dụ: Nguyễn Minh Anh" required>
+            </div>
+
+            <!-- Email & Số điện thoại -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Địa chỉ Email *</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="minhanh@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="contactPhone" class="form-label">Số điện thoại</label>
+                <input type="tel" id="contactPhone" class="form-input" placeholder="0901 234 567">
+              </div>
+            </div>
+
+            <!-- Chủ đề -->
+            <div class="form-group">
+              <label for="contactSubject" class="form-label">Chủ đề chia sẻ</label>
+              <select id="contactSubject" class="form-select">
+                <option value="story">Chia sẻ câu chuyện về loài hoa</option>
+                <option value="botanical">Đóng góp kiến thức thực vật học</option>
+                <option value="feedback">Góp ý cải thiện giao diện website</option>
+                <option value="collaboration">Kết nối giao lưu học tập</option>
+                <option value="other">Chủ đề khác</option>
+              </select>
+            </div>
+
+            <!-- Nội dung tin nhắn -->
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Nội dung tin nhắn *</label>
+              <textarea id="contactMessage" class="form-textarea" placeholder="Hãy viết điều bạn muốn chia sẻ với LumiFlower..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px 28px; font-size: 1rem;">
+              Gửi tin nhắn →
+            </button>
+          </form>
+        </div>
+
+        <!-- Cột phải: Thông tin liên hệ & Bản đồ Google Maps -->
+        <div class="contact-info-col">
+          <!-- Hộp thông tin -->
+          <div class="contact-card-box">
+            <h4 style="color: var(--deep-blue); margin-bottom: 20px;">Thông tin kết nối</h4>
+            
+            <div class="contact-method-item">
+              <div class="contact-method-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div class="contact-method-content">
+                <h5>Email liên hệ:</h5>
+                <p><a href="mailto:hello@lumiflower.vn" style="color: var(--deep-blue); font-weight: 500;">hello@lumiflower.vn</a></p>
+              </div>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="contact-method-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div class="contact-method-content">
+                <h5>Điện thoại hỗ trợ:</h5>
+                <p style="color: var(--soft-charcoal); font-weight: 500;">0123 456 789</p>
+              </div>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="contact-method-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <div class="contact-method-content">
+                <h5>Thời gian phản hồi:</h5>
+                <p>08:00 – 21:00 (Thứ Hai – Chủ Nhật)</p>
+              </div>
+            </div>
+
+            <!-- Mạng xã hội -->
+            <div style="margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border-light);">
+              <span style="font-size: 0.85rem; color: var(--text-muted); display: block; margin-bottom: 10px;">Theo dõi trên mạng xã hội:</span>
+              <div style="display: flex; gap: 10px;">
+                <span class="social-icon-btn" title="Facebook">FB</span>
+                <span class="social-icon-btn" title="Instagram">IG</span>
+                <span class="social-icon-btn" title="TikTok">TT</span>
+                <span class="social-icon-btn" title="YouTube">YT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bản đồ vị trí Google Maps (Minh họa theo đúng yêu cầu đề bài) -->
+          <div class="contact-card-box">
+            <h4 style="color: var(--deep-blue); margin-bottom: 6px;">Địa chỉ liên hệ</h4>
+            <p style="font-size: 0.9rem; color: var(--soft-charcoal); margin-bottom: 14px;">
+              📍 <strong>123 Đường Hoa, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</strong>
+            </p>
+
+            <div class="map-embed-frame">
+              <!-- Google Maps Iframe Embed centered at District 1, HCMC -->
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4602330761183!2d106.69834731533418!3d10.775253862148119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f385570472f%3A0x1787491f7f578276!2zUXXhuq1uIDEsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1680000000000!5m2!1svi!2s" 
+                title="Bản đồ vị trí minh họa LumiFlower" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <p class="map-note">
+              * Ghi chú rõ: Đây là địa chỉ minh họa cho website học tập, phi thương mại.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="brand-logo-icon">
+              <svg viewBox="0 0 48 48" width="38" height="38" fill="none">
+                <circle cx="24" cy="24" r="22" fill="#F8FCFF" stroke="#B9DDF3" stroke-width="1.5" />
+                <path d="M16 12 C16 12, 17 26, 17 31 C17 34, 19 35, 24 35 C28 35, 31 34.5, 33 34" stroke="#245B82" stroke-width="2.2" stroke-linecap="round"/>
+                <path d="M16 16 C14 10, 20 8, 22 13 C23 15, 20 18, 16 19" stroke="#6BAED6" stroke-width="1.8" stroke-linecap="round" fill="#EEF7FC" fill-opacity="0.6"/>
+              </svg>
+            </div>
+            <div class="brand-logo-text">
+              <span class="brand-title">LUMIFLOWER</span>
+              <span class="brand-tagline">Chạm vào Cảm Xúc, Chia Sẻ Câu Chuyện</span>
+            </div>
+          </a>
+          <p>Dự án website học tập và trưng bày phi thương mại. Nơi lưu giữ tình yêu thiên nhiên và hình ảnh các loài hoa.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Thư mục trang</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="cau-chuyen.html">Câu chuyện của hoa</a></li>
+            <li><a href="cac-loai-hoa.html">Các loài hoa</a></li>
+            <li><a href="trung-bay.html">Thư viện trưng bày</a></li>
+            <li><a href="ve-toi.html">Về tôi (Tác giả)</a></li>
+            <li><a href="lien-he.html">Liên hệ & Góp ý</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Khám phá</h4>
+          <ul class="footer-links">
+            <li><a href="chi-tiet-hoa.html?id=cam-tu-cau">Hoa cẩm tú cầu</a></li>
+            <li><a href="chi-tiet-hoa.html?id=hoa-hong">Hoa hồng</a></li>
+            <li><a href="chi-tiet-hoa.html?id=hoa-tulip">Hoa tulip</a></li>
+            <li><a href="chi-tiet-hoa.html?id=hoa-sen">Hoa sen Việt Nam</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Đăng ký nhận bản tin</h4>
+          <form class="newsletter-form">
+            <div class="newsletter-input-wrap">
+              <input type="email" placeholder="Email của bạn..." required>
+              <button type="submit" class="btn btn-primary" style="padding: 9px 20px; font-size: 0.85rem;">Đăng ký</button>
+            </div>
+            <span class="footer-newsletter-note">Bản tin học tập phi thương mại – không thư rác.</span>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 LumiFlower. Website phi thương mại – phục vụ mục đích học tập và chia sẻ kiến thức.</div>
+        <div class="footer-noncommercial-pill">Dự án Học tập LumiFlower Sky Garden</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/flower-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

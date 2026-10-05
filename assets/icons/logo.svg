@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <!-- Soft circular badge background with sky tint -->
+  <circle cx="24" cy="24" r="22" fill="#F8FCFF" stroke="#B9DDF3" stroke-width="1.5" />
+  
+  <!-- Stylized Monogram L with Botanical Line-art Flower -->
+  <!-- Stem & base of 'L' -->
+  <path d="M16 12 C16 12, 17 26, 17 31 C17 34, 19 35, 24 35 C28 35, 31 34.5, 33 34" 
+        stroke="#245B82" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Graceful floral petals blooming from the top branch of L -->
+  <!-- Central petal -->
+  <path d="M16 16 C14 10, 20 8, 22 13 C23 15, 20 18, 16 19" 
+        stroke="#6BAED6" stroke-width="1.8" stroke-linecap="round" fill="#EEF7FC" fill-opacity="0.6"/>
+  <!-- Right upper petal -->
+  <path d="M20 12 C24 9, 28 13, 25 17 C23 19, 19 18, 17 18" 
+        stroke="#6BAED6" stroke-width="1.6" stroke-linecap="round" fill="#DCEFFA" fill-opacity="0.4"/>
+  <!-- Left accent petal -->
+  <path d="M15 15 C11 14, 11 18, 14 20 C16 21, 17 19, 17 17" 
+        stroke="#A8C8C5" stroke-width="1.4" stroke-linecap="round"/>
+  
+  <!-- Delicate botanical leaf bud -->
+  <path d="M25 35 C26 31, 31 29, 32 33 C32 35, 28 36, 26 35" 
+        stroke="#A8C8C5" stroke-width="1.5" fill="#A8C8C5" fill-opacity="0.3" stroke-linecap="round"/>
+  <circle cx="28.5" cy="32.5" r="0.8" fill="#6BAED6"/>
+  <circle cx="22" cy="12" r="1" fill="#245B82"/>
+</svg>

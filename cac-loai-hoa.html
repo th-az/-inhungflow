@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khám phá các loài hoa – Thư viện thực vật LumiFlower</title>
+  <meta name="description" content="Thư viện các loài hoa phi thương mại: Khám phá tên khoa học, cấu tạo, ý nghĩa và câu chuyện đằng sau mỗi đóa hoa.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating Botanical Petals -->
+  <svg class="floating-petal floating-petal-1" viewBox="0 0 50 50" fill="none">
+    <path d="M10 25 C10 10, 25 10, 35 15 C45 20, 40 38, 28 40 C16 42, 10 35, 10 25 Z" fill="#DCEFFA" stroke="#B9DDF3" stroke-width="1.2" />
+  </svg>
+  <svg class="floating-petal floating-petal-2" viewBox="0 0 60 60" fill="none">
+    <path d="M15 30 C15 15, 30 12, 45 20 C55 30, 48 50, 32 52 C18 54, 15 42, 15 30 Z" fill="#EEF7FC" stroke="#A8C8C5" stroke-width="1.2" />
+  </svg>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="LumiFlower Trang Chủ">
+        <div class="brand-logo-icon">
+          <svg viewBox="0 0 48 48" width="42" height="42" fill="none">
+            <circle cx="24" cy="24" r="22" fill="#F8FCFF" stroke="#B9DDF3" stroke-width="1.5" />
+            <path d="M16 12 C16 12, 17 26, 17 31 C17 34, 19 35, 24 35 C28 35, 31 34.5, 33 34" stroke="#245B82" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M16 16 C14 10, 20 8, 22 13 C23 15, 20 18, 16 19" stroke="#6BAED6" stroke-width="1.8" stroke-linecap="round" fill="#EEF7FC" fill-opacity="0.6"/>
+            <path d="M20 12 C24 9, 28 13, 25 17 C23 19, 19 18, 17 18" stroke="#6BAED6" stroke-width="1.6" stroke-linecap="round" fill="#DCEFFA" fill-opacity="0.4"/>
+            <path d="M15 15 C11 14, 11 18, 14 20 C16 21, 17 19, 17 17" stroke="#A8C8C5" stroke-width="1.4" stroke-linecap="round"/>
+            <circle cx="28.5" cy="32.5" r="0.8" fill="#6BAED6"/>
+          </svg>
+        </div>
+        <div class="brand-logo-text">
+          <span class="brand-title">LUMIFLOWER</span>
+          <span class="brand-tagline">Chạm vào Cảm Xúc, Chia Sẻ Câu Chuyện</span>
+        </div>
+      </a>
+
+      <nav aria-label="Menu chính">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+          <li><a href="cau-chuyen.html" class="nav-link">Câu chuyện</a></li>
+          <li><a href="cac-loai-hoa.html" class="nav-link active">Các loài hoa</a></li>
+          <li><a href="trung-bay.html" class="nav-link">Trưng bày</a></li>
+          <li><a href="ve-toi.html" class="nav-link">Về tôi</a></li>
+          <li><a href="lien-he.html" class="nav-link">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn trigger-search" aria-label="Tìm kiếm">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </button>
+        <button class="icon-btn btn-hamburger" aria-label="Mở menu">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <aside class="mobile-nav-drawer" aria-label="Menu di động">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo"><span class="brand-title">LUMIFLOWER</span></div>
+      <button class="icon-btn mobile-drawer-close" aria-label="Đóng menu">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link">Trang chủ</a></li>
+      <li><a href="cau-chuyen.html" class="mobile-nav-link">Câu chuyện</a></li>
+      <li><a href="cac-loai-hoa.html" class="mobile-nav-link active">Các loài hoa</a></li>
+      <li><a href="trung-bay.html" class="mobile-nav-link">Trưng bày</a></li>
+      <li><a href="ve-toi.html" class="mobile-nav-link">Về tôi</a></li>
+      <li><a href="lien-he.html" class="mobile-nav-link">Liên hệ</a></li>
+    </ul>
+  </aside>
+
+  <div class="backdrop-overlay"></div>
+
+  <!-- SEARCH MODAL -->
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="Tìm kiếm">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px;">
+      <h4 style="color: var(--deep-blue); font-size: 1.25rem;">Tìm kiếm trong LumiFlower</h4>
+      <button class="icon-btn search-modal-close" aria-label="Đóng">✕</button>
+    </div>
+    <div class="search-input-wrap">
+      <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--primary-blue);">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+      </svg>
+      <input type="text" id="searchInput" placeholder="Tìm kiếm loài hoa, ý nghĩa hoặc câu chuyện..." autocomplete="off">
+    </div>
+    <div class="search-results-list" id="searchResults"></div>
+  </div>
+
+  <main class="section">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <div class="section-badge">Thư viện thực vật học</div>
+        <h1 class="section-title">Thư viện các loài hoa</h1>
+        <p class="section-subtitle">
+          Khám phá vẻ đẹp, tên khoa học, xuất xứ và ý nghĩa biểu tượng của từng loài hoa qua lăng kính nghệ thuật và khoa học.
+        </p>
+      </div>
+
+      <!-- FILTER TABS -->
+      <div class="filter-tabs-wrap">
+        <button class="filter-tab flower-filter-tab active" data-category="all">Tất cả</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-hong">Hoa hồng</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-tulip">Hoa tulip</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-huong-duong">Hoa hướng dương</button>
+        <button class="filter-tab flower-filter-tab" data-category="cam-tu-cau">Hoa cẩm tú cầu</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-ly">Hoa ly</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-baby">Hoa baby</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-cuc">Hoa cúc</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-sen">Hoa sen</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-mau-don">Hoa mẫu đơn</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-lan">Hoa lan</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-dai">Hoa dại</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-theo-mua">Hoa theo mùa</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-thanh-tu">Hoa thanh tú</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-phoi-hop">Hoa phối hợp</button>
+        <button class="filter-tab flower-filter-tab" data-category="hoa-tra">Hoa trà</button>
+      </div>
+
+      <!-- FLOWER CARDS GRID -->
+      <div class="flower-library-grid" id="flowerLibraryGrid">
+        <!-- Render động từ flower-data.js qua hàm initFlowerFilter() -->
+      </div>
+
+      <!-- QUOTE BANNER -->
+      <div style="margin-top: 70px; text-align: center; padding: 48px 30px; background: var(--ice-blue); border: 1px solid var(--border-light); border-radius: var(--radius-lg);">
+        <p class="quote-script" style="font-size: 2.2rem; margin-bottom: 12px; color: var(--deep-blue);">
+          “Mỗi loài hoa là một câu chuyện riêng biệt của đất trời…”
+        </p>
+        <p style="font-size: 0.95rem; color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+          Dù khoe sắc rực rỡ hay âm thầm e ấp nép sau tán lá, vẻ đẹp của hoa luôn là lời nhắc nhở ta về sự trân trọng từng khoảnh khắc bình dị của hiện tại.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="brand-logo-icon">
+              <svg viewBox="0 0 48 48" width="38" height="38" fill="none">
+                <circle cx="24" cy="24" r="22" fill="#F8FCFF" stroke="#B9DDF3" stroke-width="1.5" />
+                <path d="M16 12 C16 12, 17 26, 17 31 C17 34, 19 35, 24 35 C28 35, 31 34.5, 33 34" stroke="#245B82" stroke-width="2.2" stroke-linecap="round"/>
+                <path d="M16 16 C14 10, 20 8, 22 13 C23 15, 20 18, 16 19" stroke="#6BAED6" stroke-width="1.8" stroke-linecap="round" fill="#EEF7FC" fill-opacity="0.6"/>
+              </svg>
+            </div>
+            <div class="brand-logo-text">
+              <span class="brand-title">LUMIFLOWER</span>
+              <span class="brand-tagline">Chạm vào Cảm Xúc, Chia Sẻ Câu Chuyện</span>
+            </div>
+          </a>
+          <p>Dự án website học tập và trưng bày phi thương mại. Nơi lưu giữ tình yêu thiên nhiên và tri thức về các loài hoa.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Thư mục trang</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="cau-chuyen.html">Câu chuyện của hoa</a></li>
+            <li><a href="cac-loai-hoa.html">Các loài hoa</a></li>
+            <li><a href="trung-bay.html">Thư viện trưng bày</a></li>
+            <li><a href="ve-toi.html">Về tôi (Tác giả)</a></li>
+            <li><a href="lien-he.html">Liên hệ & Góp ý</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Loài hoa nổi bật</h4>
+          <ul class="footer-links">
+            <li><a href="chi-tiet-hoa.html?id=cam-tu-cau">Hoa cẩm tú cầu</a></li>
+            <li><a href="chi-tiet-hoa.html?id=hoa-hong">Hoa hồng</a></li>
+            <li><a href="chi-tiet-hoa.html?id=hoa-tulip">Hoa tulip</a></li>
+            <li><a href="chi-tiet-hoa.html?id=hoa-sen">Hoa sen Việt Nam</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Đăng ký nhận bản tin</h4>
+          <form class="newsletter-form">
+            <div class="newsletter-input-wrap">
+              <input type="email" placeholder="Email của bạn..." required>
+              <button type="submit" class="btn btn-primary" style="padding: 9px 20px; font-size: 0.85rem;">Đăng ký</button>
+            </div>
+            <span class="footer-newsletter-note">Bản tin định kỳ chia sẻ tri thức thực vật học phi thương mại.</span>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 LumiFlower. Website phi thương mại – phục vụ mục đích học tập và chia sẻ kiến thức.</div>
+        <div class="footer-noncommercial-pill">Dự án Học tập LumiFlower Sky Garden</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/flower-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
