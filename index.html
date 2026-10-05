@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <!-- Google tag (gtag.js) -->
+  <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N79WKFFEJ0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
   gtag('js', new Date());
 
-  gtag('config', 'G-N79WKFFEJ0');
+  gtag('config', 'G-N79WKFFEJ0', {
+    anonymize_ip: true,
+    cookie_flags: 'SameSite=None;Secure'
+  });
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
